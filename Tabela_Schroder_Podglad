@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="UTF-8"> 
+<title>Tabela HTML</title> 
+</head> 
+<body> 
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<TABLE BORDER=5 BORDERCOLOR=BLUE WIDTH=70% HEIGHT=140>
+<thead> 
+<TR BGCOLOR=brown> 
+     <TD COLSPAN=6 ALIGN=CENTER> Dane Komputerowe – Schroder Maciej 1p.gr2 </TD> 
+      </tr> 
+<TR BGCOLOR=red
+<th>   </th>
+<th VALIGN=MIDDLE ALIGN=CENTER>Nr dysku</th>
+<th VALIGN=MIDDLE ALIGN=CENTER>Pojemność</th> 
+<th VALIGN=MIDDLE ALIGN=CENTER>Interfejs</th> 
+<th VALIGN=MIDDLE ALIGN=CENTER>Odczyt (MB/s)</th> 
+<TH VALIGN=MIDDLE ALIGN=CENTER><FONT COLOR=WHITE>Zapis (MB/S)</FONT></TH>
+<TH VALIGN=MIDDLE ALIGN=CENTER><FONT COLOR=WHITE>Typ pamięci </FONT></TH>
+
+</tr> 
+   </thead> 
+   <tbody> 
+ <TR BGCOLOR=yellow> 
+      </tr> 
+      <TR BGCOLOR=yellow> 
+         <TD VALIGN=MIDDLE ALIGN=CENTER><FONT COLOR=BLUE>Samsung 970 EVO Plus</FONT></TD>
+         <td VALIGN=MIDDLE ALIGN=CENTER>1 TB</td> 
+         <td VALIGN=MIDDLE ALIGN=CENTER>NVMe PCle 3.0</td> 
+         <td VALIGN=MIDDLE ALIGN=CENTER>3500</td> 
+         <TD VALIGN=MIDDLE ALIGN=CENTER><FONT COLOR=GRAY>3300</FONT></TD>
+   	 <TD VALIGN=MIDDLE ALIGN=CENTER><FONT COLOR=GRAY>TLC NAND</FONT></TD>
+      </tr> 
+      <TR BGCOLOR=yellow> 
+         <TD VALIGN=MIDDLE ALIGN=CENTER><FONT COLOR=BLUE>WD Blue SN570</FONT></TD>
+         <td VALIGN=MIDDLE ALIGN=CENTER>500 GB</td> 
+         <td VALIGN=MIDDLE ALIGN=CENTER>NVMe PCle 3.0</td> 
+         <td VALIGN=MIDDLE ALIGN=CENTER>3500</td> 
+         <TD VALIGN=MIDDLE ALIGN=CENTER><FONT COLOR=GRAY>3300</FONT></TD>
+  	 <TD VALIGN=MIDDLE ALIGN=CENTER><FONT COLOR=GRAY>TLC NAND</FONT></TD>
+      </tr> 
+      <TR BGCOLOR=yellow> 
+           <TD VALIGN=MIDDLE ALIGN=CENTER><FONT COLOR=BLUE>Crucial MX500</FONT></TD> 
+         <td VALIGN=MIDDLE ALIGN=CENTER>1TB</td> 
+         <td VALIGN=MIDDLE ALIGN=CENTER>SATA III</td> 
+         <td VALIGN=MIDDLE ALIGN=CENTER>560</td> 
+         <TD VALIGN=MIDDLE ALIGN=CENTER><FONT COLOR=GRAY>510</FONT></TD>
+         <TD VALIGN=MIDDLE ALIGN=CENTER><FONT COLOR=GRAY>3D NAND</FONT></TD>
+      <TR BGCOLOR=yellow>  
+  <TR BGCOLOR=yellow>  
+        <TD VALIGN=MIDDLE ALIGN=CENTER><FONT COLOR=BLUE>Kingston A2000</FONT></TD> 
+         <td VALIGN=MIDDLE ALIGN=CENTER>500 GB</td> 
+         <td VALIGN=MIDDLE ALIGN=CENTER>NVMe PCle 3.0</td> 
+         <td VALIGN=MIDDLE ALIGN=CENTER>2200</td> 
+         <TD VALIGN=MIDDLE ALIGN=CENTER><FONT COLOR=GRAY>2000</FONT></TD>
+	 <TD VALIGN=MIDDLE ALIGN=CENTER><FONT COLOR=GRAY>TLC NAND</FONT></TD>
+      </tr> 
+  <TR BGCOLOR=yellow>  
+         <TD VALIGN=MIDDLE ALIGN=CENTER><FONT COLOR=BLUE>Seagate Barracuda HDD</FONT></TD> 
+         <td VALIGN=MIDDLE ALIGN=CENTER>2 TB</td> 
+         <td VALIGN=MIDDLE ALIGN=CENTER>SATA III</td> 
+         <td VALIGN=MIDDLE ALIGN=CENTER>220</td> 
+         <TD VALIGN=MIDDLE ALIGN=CENTER><FONT COLOR=GRAY>200</FONT></TD>
+	 <TD VALIGN=MIDDLE ALIGN=CENTER><FONT COLOR=GRAY>MAGNETIC</FONT></TD>
+      </tr> 
+<TR BGCOLOR=orange> 
+     <TD COLSPAN=6 ALIGN=CENTER> Dane Komputerowe </TD> 
+      </tr> 
+ 
+   </tbody> 
+</table>
+</html>
