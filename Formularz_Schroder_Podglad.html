@@ -1,0 +1,112 @@
+<!DOCTYPE html> 
+<html lang="pl-PL"> 
+<html> 
+<head> 
+  <meta charset="utf-8"> 
+  <title>ZADANIE FORMULARZ</title> 
+</head> 
+<body bgcolor="#87CEFA"> 
+
+<center><h1>Zgłoszenie o Prace w sklepie sportowym</h1></center> 
+<hr size="4" width="80%" align="center" color="gray">
+
+<form> 
+<table align="center"> 
+
+  <tr height="300"> 
+    <td width="50"> 
+      <center><font size="5" color="red"><b>Sport którym się interesujesz?</b></font></center><br> 
+      <center>  
+        <select> 
+          <option value="Sport">Piłka nożna</option> 
+          <option value="Sport">Koszykówka</option> 
+          <option value="Sport">Siatkówka</option> 
+          <option value="Sport">Hokej</option> 
+          <option value="Sport">Piłka ręczna</option> 
+          <option value="Sport">Golf</option> 
+          <option value="Sport">Tenis</option> 
+          <option value="Sport">Tenis stołowy</option> 
+          <option value="Sport">Rugby</option> 
+          <option value="Sport">Baseball</option> 
+          <option value="Sport">Inne</option> 
+        </select> 
+      </center> 
+    </td>						   
+
+    <td width="500" align="left">  
+      <b>Imię</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="imie" size="40"><br><br> 
+      <b>Nazwisko</b>&nbsp;&nbsp;&nbsp;&nbsp;<input name="nazwisko" size="40">  
+    </td>
+  </tr>
+
+ 
+  <tr height="300">
+    <td colspan="2"> 
+      <left><font size="5" color="red"><b>Gdzie mieszkasz na stałe?</b></font></left><br> 
+      <left>  
+        <select> 
+          <option value="Blisko">Blisko</option> 
+          <option value="Daleko">Daleko</option> 
+          <option value="Powyżej 20 KM">Powyżej 20 KM</option> 
+          <option value="Na przeciwko sklepu">Na przeciwko sklepu</option> 
+          <option value="W danym mieście">W danym mieście</option> 
+        </select> 
+      </left> 
+    </td>
+  
+
+</tr>
+<tr height="300">
+   <TD width="500">Masz jakieś doświadczenie ?
+	<br><br>
+		<input type="checkbox" name="Odpowiedz" value="k"> Tak
+			<br><br>
+			<input type="checkbox" name="Odpowiedz" value="m"> Nie
+			<br><br>
+			
+		<br><br><br> 
+    </td>
+	<td>
+  <center>
+    <br><br>
+    <center>
+      <font size="5" color="red"><b>Jak oceniasz swoje umiejetnosci?</b></font><br><br>
+      <textarea name="opis" rows="20" cols="80"></textarea>
+    </center>
+	</td>
+  </tr>
+  <tr>
+  <td>
+  <center>
+    <br><br>
+    <center>
+      <font size="5" color="red"><b>Dlaczego akurat ciebie powiniśmy wybrać?</b></font><br><br>
+      <textarea name="opis" rows="22" cols="80"></textarea>
+    </center>
+	</td>
+	<td width="16" align="left">  
+      <b>Hasło do Fomularza</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="Hasło do Fomularza" size="40"><br><br>
+	  </td>
+  </tr>
+  <tr>
+  <td align="center">
+<br><br>		
+    <<TD><button onclick="alert('Przysłano potwierdzenie')" style="height:80px;width:300px">Prześlij potwierdzenie</button></TD>
+    <<TD align="left"><button onclick="alert('Stworzona kopie zapasową')" style="height:80px;width:300px">Stwórz kopie zapasową</button></TD>	
+  </tr>
+  
+  <tr height="100"> 						   
+    <td align="left">
+      <input type="reset" value="Reset" style="height:80px; width:150px">
+    </td>  
+    <td align="left">
+      <input type="submit" value="Wyślij formularz" style="height:80px; width:150px">
+    </td>
+   	
+  </tr> 
+
+</table> 
+</form> 
+
+</body> 
+</html>
